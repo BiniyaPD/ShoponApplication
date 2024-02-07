@@ -70,7 +70,7 @@ namespace ShopOnWebServices.Controllers
             catch (Exception e)
             {
                 //Log the exception
-                return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving product from sever");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving product item from sever");
             }
         }
 
